@@ -1,10 +1,15 @@
+ 
+*{
+    margin: 0;
+    padding:0;
+}
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
-    margin-inline-start: 30px;
     background-color:#222831;
     color:#f7f6e7;    
+    padding: 1.5em;
 }
 
 
@@ -12,17 +17,26 @@ h1{
     font-size: 100px;
     font-family: 'Sacramento', cursive;
     color:#ff577f;
-
-  
+    margin: 30px 0px 30px 10px;
 
 }
 
 h2{
-    margin: 30px 20px 0px 20px ;
+    margin: 30px 0px 30px 0px ;
 }
 
+p{
+    width: 45em;
+    margin-bottom: 1em;
+}
 
 ul{
  list-style: none;
+ margin-top:3em;
  
+}
+
+a{
+    color:#ff577f;
+    text-decoration: none;
 }
